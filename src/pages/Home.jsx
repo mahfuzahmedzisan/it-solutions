@@ -1,12 +1,16 @@
 import React from "react";
 
-export default function home() {
+import Slider from "../components/Slider/Slider";
+import Courses from "../components/Courses/Courses";
+
+export default function Home() {
   return (
     <>
-      <h1>Home Page Content Will goes here</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi architecto, ullam sunt repudiandae velit sint debitis maiores dicta laborum minima exercitationem cum tenetur fugit. Eaque rem consectetur magnam in aperiam, deleniti omnis veniam sequi reiciendis, doloribus ipsum cum cupiditate aspernatur commodi eos dolorem maxime repudiandae deserunt maiores? Fugiat dolores libero aspernatur harum maxime pariatur tempore molestias ea veritatis? Quia, maxime tempore modi dolor ipsam repellendus sint. Labore quasi quo molestias veniam culpa quidem laborum reiciendis dolore facere minus necessitatibus ab officia sapiente impedit nemo a atque quam magnam autem eum neque quas, voluptates voluptatum? Necessitatibus dolorum, optio libero fugiat vitae cumque veniam! Facilis aliquid dolorem maxime fugit cum deleniti impedit dicta nesciunt facere delectus id officiis voluptatibus aliquam esse quasi necessitatibus nihil velit perspiciatis, dignissimos debitis. Laborum quaerat suscipit accusamus sint iure quasi aperiam, nobis esse doloribus excepturi corrupti mollitia sapiente fugit a magni neque dolorum eos sunt eligendi magnam adipisci! Adipisci deserunt nihil impedit nisi ratione, mollitia delectus iusto numquam, aliquam obcaecati repudiandae! Amet aliquam quo quos, quasi blanditiis iure tempora voluptate, illum, officiis alias laboriosam! Error officia ipsum odit iure quia nobis consectetur reiciendis sint atque, eius deleniti blanditiis magni, quam quaerat inventore consequatur repellat eaque et natus. At corporis aliquam autem consequatur, in magni totam nesciunt vero, enim vitae veniam ex tempora expedita recusandae est sit, eum delectus tempore assumenda animi voluptatibus deleniti? Repudiandae eveniet labore ipsam adipisci quam atque dolorem suscipit, recusandae ab voluptatum sed itaque amet accusantium distinctio expedita qui nemo fuga. Pariatur veniam magni a, debitis ipsa reiciendis nemo possimus? Vel magni atque, autem deleniti dolor perferendis ducimus, nesciunt officia quibusdam animi eveniet? Quos cupiditate nobis sequi architecto quas inventore non itaque aperiam et necessitatibus assumenda quibusdam, natus sapiente. Excepturi magni ea, vitae magnam delectus assumenda praesentium nemo perspiciatis fugiat voluptates ex ducimus tempora quisquam iusto dignissimos suscipit dicta explicabo. Repudiandae, consequatur nesciunt porro rem voluptatem iure ipsam veritatis non impedit corrupti odio laboriosam exercitationem illo dignissimos. Dolor suscipit officia repellat, illum fugit tempora provident ullam at voluptate ex molestiae error itaque ut fuga blanditiis qui natus sapiente consectetur officiis! Obcaecati corporis magni in. Aliquam voluptates temporibus odit incidunt ut cum quisquam modi labore, dolore mollitia unde in quaerat voluptatum libero inventore omnis tempore rerum. Iusto, error assumenda? Laboriosam sapiente hic expedita doloremque, eum assumenda minima, dignissimos, vitae eaque est laudantium labore accusamus asperiores eveniet modi aut cum veniam provident reprehenderit! Eos a in fuga consequuntur atque, voluptates accusantium porro necessitatibus blanditiis ullam officia officiis? Earum cum atque dolore magnam voluptatum minus perferendis ab expedita. Libero, nulla qui? Excepturi ab nobis quibusdam nemo maxime. Consequatur esse earum consectetur enim alias, dicta delectus placeat nostrum nisi ducimus soluta cumque. Nulla laboriosam id molestiae praesentium placeat nostrum voluptas debitis, ducimus illum mollitia ut quos fugit repellendus, voluptatum temporibus! Molestiae quibusdam eius consequatur tempora rerum quo, quaerat corrupti minus omnis odit debitis, fugit excepturi! Animi voluptatum aspernatur maxime repudiandae provident nisi ducimus eligendi molestiae excepturi, officiis nobis dolores quaerat similique voluptas, quod sint. Error quis molestias quaerat.
-      </p>
+      
+      <Slider></Slider>
+      <div className="container">
+        <Courses></Courses>
+      </div>
     </>
   );
 }

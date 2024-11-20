@@ -6,6 +6,21 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        'slide-up': 'slideUp 0.6s ease-out forwards', // Custom slide-up animation
+      },
+      keyframes: {
+        slideUp: {
+          '0%': {
+            transform: 'translateY(30px)',
+            opacity: '0',
+          },
+          '100%': {
+            transform: 'translateY(0)',
+            opacity: '1',
+          },
+        },
+      },
 
     },
     container: {

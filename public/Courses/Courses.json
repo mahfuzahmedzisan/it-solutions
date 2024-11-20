@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development Bootcamp",
+    "description": "Learn to build modern web applications using HTML, CSS, JavaScript, and React.",
+    "duration": "12 weeks",
+    "level": "Beginner",
+    "price": 299,
+    "rating": 4.8,
+    "image": "https://via.placeholder.com/300x200?text=Web+Development+Bootcamp"
+  },
+  {
+    "id": 2,
+    "title": "Data Science Masterclass",
+    "description": "Master data analysis, visualization, and machine learning with Python and R.",
+    "duration": "16 weeks",
+    "level": "Intermediate",
+    "price": 499,
+    "rating": 4.7,
+    "image": "https://via.placeholder.com/300x200?text=Data+Science+Masterclass"
+  },
+  {
+    "id": 3,
+    "title": "Graphic Design Essentials",
+    "description": "Learn the principles of design and master tools like Adobe Photoshop and Illustrator.",
+    "duration": "8 weeks",
+    "level": "Beginner",
+    "price": 199,
+    "rating": 4.5,
+    "image": "https://via.placeholder.com/300x200?text=Graphic+Design+Essentials"
+  },
+  {
+    "id": 4,
+    "title": "Advanced AI and Deep Learning",
+    "description": "Dive deep into neural networks, TensorFlow, and PyTorch to build AI solutions.",
+    "duration": "20 weeks",
+    "level": "Advanced",
+    "price": 599,
+    "rating": 4.9,
+    "image": "https://via.placeholder.com/300x200?text=Advanced+AI+and+Deep+Learning"
+  },
+  {
+    "id": 5,
+    "title": "Digital Marketing Strategies",
+    "description": "Learn SEO, social media marketing, and paid advertising techniques.",
+    "duration": "10 weeks",
+    "level": "Intermediate",
+    "price": 249,
+    "rating": 4.6,
+    "image": "https://via.placeholder.com/300x200?text=Digital+Marketing+Strategies"
+  },
+  {
+    "id": 6,
+    "title": "Mobile App Development with Flutter",
+    "description": "Build cross-platform mobile applications using Flutter and Dart.",
+    "duration": "14 weeks",
+    "level": "Intermediate",
+    "price": 399,
+    "rating": 4.7,
+    "image": "https://via.placeholder.com/300x200?text=Mobile+App+Development+with+Flutter"
+  }
+]
