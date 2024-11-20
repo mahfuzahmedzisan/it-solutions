@@ -7,11 +7,14 @@ function App() {
 
   return (
     <>
-      <div>
+      <header>
         <div className="container">
           <Nav></Nav>
         </div>
-      </div>
+      </header>
+      <Home></Home>
+      <Home></Home>
+      <Home></Home>
       <Home></Home>
     </>
   )
