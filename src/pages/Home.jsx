@@ -1,5 +1,5 @@
 import React from "react";
-
+import Courses from "../components/Courses/Courses";
 import Slider from "../components/Slider/Slider";
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
     <>
 
       <Slider></Slider>
-
+      <Courses></Courses>
 
     </>
   );
