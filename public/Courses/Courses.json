@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development Bootcamp",
+    "shortDescription": "Learn to build modern web applications using HTML, CSS, JavaScript, and React.",
+    "longDescription": "This comprehensive bootcamp covers all the essential technologies to create modern, responsive web applications. You'll gain hands-on experience with HTML, CSS, JavaScript, and React, preparing you for a career in web development. The course includes 48 classes, with practical assignments and projects to reinforce your learning.",
+    "duration": "12 weeks",
+    "level": "Beginner",
+    "price": 299,
+    "rating": 4.8,
+    "image": "https://via.placeholder.com/300x200?text=Web+Development+Bootcamp",
+    "totalClasses": 48
+  },
+  {
+    "id": 2,
+    "title": "Data Science Masterclass",
+    "shortDescription": "Master data analysis, visualization, and machine learning with Python and R.",
+    "longDescription": "This masterclass dives deep into the world of data science, teaching you how to analyze, visualize, and model data using Python and R. You will explore machine learning algorithms, data wrangling, and advanced visualization techniques, with hands-on projects that help solidify your knowledge. The course includes 64 classes and is designed for intermediate learners.",
+    "duration": "16 weeks",
+    "level": "Intermediate",
+    "price": 499,
+    "rating": 4.7,
+    "image": "https://via.placeholder.com/300x200?text=Data+Science+Masterclass",
+    "totalClasses": 64
+  },
+  {
+    "id": 3,
+    "title": "Graphic Design Essentials",
+    "shortDescription": "Learn the principles of design and master tools like Adobe Photoshop and Illustrator.",
+    "longDescription": "In this course, you will explore the key principles of design and gain proficiency in industry-standard tools like Adobe Photoshop and Illustrator. Whether you're a beginner or looking to refine your skills, this course offers practical assignments and design projects to help you develop a strong foundation in graphic design. The course includes 32 classes and covers essential design theory and practice.",
+    "duration": "8 weeks",
+    "level": "Beginner",
+    "price": 199,
+    "rating": 4.5,
+    "image": "https://via.placeholder.com/300x200?text=Graphic+Design+Essentials",
+    "totalClasses": 32
+  },
+  {
+    "id": 4,
+    "title": "Advanced AI and Deep Learning",
+    "shortDescription": "Dive deep into neural networks, TensorFlow, and PyTorch to build AI solutions.",
+    "longDescription": "This advanced course covers the cutting-edge techniques in artificial intelligence and deep learning. You will learn how to implement neural networks using frameworks like TensorFlow and PyTorch, and build complex AI solutions. Designed for experienced learners, the course includes 80 classes, with real-world projects to challenge your skills and push the boundaries of AI development.",
+    "duration": "20 weeks",
+    "level": "Advanced",
+    "price": 599,
+    "rating": 4.9,
+    "image": "https://via.placeholder.com/300x200?text=Advanced+AI+and+Deep+Learning",
+    "totalClasses": 80
+  },
+  {
+    "id": 5,
+    "title": "Digital Marketing Strategies",
+    "shortDescription": "Learn SEO, social media marketing, and paid advertising techniques.",
+    "longDescription": "This course will teach you the essentials of digital marketing, including search engine optimization (SEO), social media marketing, and paid advertising strategies. Through practical lessons and case studies, you'll learn how to drive traffic, improve online visibility, and convert leads. The course includes 40 classes designed for intermediate learners who want to expand their digital marketing knowledge.",
+    "duration": "10 weeks",
+    "level": "Intermediate",
+    "price": 249,
+    "rating": 4.6,
+    "image": "https://via.placeholder.com/300x200?text=Digital+Marketing+Strategies",
+    "totalClasses": 40
+  },
+  {
+    "id": 6,
+    "title": "Mobile App Development with Flutter",
+    "shortDescription": "Build cross-platform mobile applications using Flutter and Dart.",
+    "longDescription": "In this intermediate-level course, you'll learn how to develop beautiful and performant mobile applications using Flutter and Dart. The course covers both Android and iOS development, providing you with the skills to create cross-platform apps. With 56 classes, you'll build real-world projects and gain a deep understanding of mobile app development techniques.",
+    "duration": "14 weeks",
+    "level": "Intermediate",
+    "price": 399,
+    "rating": 4.7,
+    "image": "https://via.placeholder.com/300x200?text=Mobile+App+Development+with+Flutter",
+    "totalClasses": 56
+  }
+]

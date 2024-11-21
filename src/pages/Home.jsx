@@ -1,9 +1,14 @@
 import React from "react";
+import Courses from "../components/Courses/Courses";
+import Slider from "../components/Slider/Slider";
 
-export default function home() {
+export default function Home() {
   return (
     <>
-      <h1>Home Page Content Will goes here</h1>
+
+      <Slider></Slider>
+      <Courses></Courses>
+
     </>
   );
 }
