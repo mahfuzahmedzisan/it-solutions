@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import CourseDetailsModal from './CourseDetailsModal';
+import EnrollmentModal from './EnrollmentModal';
 
 export default function CourseCard() {
    const [courses, setCourses] = useState([]);
    const [selectedCourse, setSelectedCourse] = useState(null);
-   const [isModalOpen, setIsModalOpen] = useState(false);
+   const [isDetailsModalOpen, setIsDetailsModalOpen] = useState(false);
+   const [isEnrollmentModalOpen, setIsEnrollmentModalOpen] = useState(false);
    const [isLoading, setIsLoading] = useState(true);  // Loading state
 
    useEffect(() => {
@@ -20,16 +22,26 @@ export default function CourseCard() {
          });
    }, []);
 
-   // Open the modal with the selected course
-   const openModal = (course) => {
+   // Open the Course Details Modal
+   const openDetailsModal = (course) => {
       setSelectedCourse(course);
-      setIsModalOpen(true);
+      setIsDetailsModalOpen(true);
    };
 
-   // Close the modal
-   const closeModal = () => {
-      setIsModalOpen(false);
+   // Close the Course Details Modal
+   const closeDetailsModal = () => {
+      setIsDetailsModalOpen(false);
       setSelectedCourse(null);
+   };
+
+   // Open the Enrollment Modal
+   const openEnrollModal = () => {
+      setIsEnrollmentModalOpen(true);
+   };
+
+   // Close the Enrollment Modal
+   const closeEnrollModal = () => {
+      setIsEnrollmentModalOpen(false);
    };
 
    if (isLoading) {
@@ -38,8 +50,16 @@ export default function CourseCard() {
 
    return (
       <>
-         {isModalOpen && (
-            <CourseDetailsModal course={selectedCourse} closeModal={closeModal} />
+         {isDetailsModalOpen && (
+            <CourseDetailsModal 
+               course={selectedCourse} 
+               closeModal={closeDetailsModal} 
+               openEnrollModal={openEnrollModal} 
+            />
+         )}
+
+         {isEnrollmentModalOpen && (
+            <EnrollmentModal closeEnrollModal={closeEnrollModal} />
          )}
 
          {courses.map((course) => (
@@ -57,8 +77,8 @@ export default function CourseCard() {
                      <span className="text-sm text-gray-500">Price: ${course.price}</span>
                   </div>
                   <div className="mt-4 flex justify-between gap-4">
-                     <button className="px-4 py-2 bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-600 transition duration-300" onClick={() => openModal(course)}>Details</button>
-                     <button className="px-4 py-2 bg-green-500 text-white font-semibold rounded-md hover:bg-green-600 transition duration-300">Enroll Now</button>
+                     <button className="px-4 py-2 bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-600 transition duration-300" onClick={() => openDetailsModal(course)}>Details</button>
+                     <button className="px-4 py-2 bg-green-500 text-white font-semibold rounded-md hover:bg-green-600 transition duration-300" onClick={openEnrollModal}>Enroll Now</button>
                   </div>
                </div>
             </div>
