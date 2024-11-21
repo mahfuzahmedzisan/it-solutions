@@ -76,7 +76,6 @@ export default function Slider() {
             aria-label="Previous Slide"
          >
             Prev
-            <div className="absolute bottom-0 left-0 w-0 h-[2px] bg-gradient-to-r from-blue-500 to-green-500 transition-all duration-300 group-hover:w-full group-hover:origin-left group-hover:bg-gradient-to-r group-hover:from-blue-500 group-hover:to-green-500"></div>
          </button>
 
          {/* Next button */}
@@ -86,7 +85,6 @@ export default function Slider() {
             aria-label="Next Slide"
          >
             Next
-            <div className="absolute bottom-0 left-0 w-0 h-[2px] bg-gradient-to-r from-blue-500 to-green-500 transition-all duration-300 group-hover:w-full group-hover:origin-left group-hover:bg-gradient-to-r group-hover:from-blue-500 group-hover:to-green-500"></div>
          </button>
 
          {/* Indicator Dots */}
@@ -110,9 +108,9 @@ export default function Slider() {
                <p className={`mt-4 text-lg sm:text-xl md:text-2xl font-semibold opacity-90 drop-shadow-lg ${isLoaded ? 'animate__animated animate__fadeIn animate__delay-700' : ''}`}>
                   Discover the future of IT solutions
                </p>
-               <button className="mt-6 bg-blue-500 text-white py-2 px-6 rounded-full hover:bg-gradient-to-r from-blue-500 to-green-500 ">
+               <a href={`#courses`} className="inline-block mt-6 bg-blue-500 text-white py-2 px-6 rounded-full hover:bg-gradient-to-r from-blue-500 to-green-500 ">
                   Get Started
-               </button>
+               </a>
             </div>
          </div>
       </div>
