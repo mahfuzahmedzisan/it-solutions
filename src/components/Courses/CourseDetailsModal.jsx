@@ -10,7 +10,7 @@ export default function CourseDetailsModal({ course, closeModal, openEnrollModal
       // Wait for the animation to finish before calling the closeModal function
       setTimeout(() => {
          closeModal(); // Close the modal after the animation
-      }, 400); // Duration should match the animation time (0.5s)
+      }, 450); // Duration should match the animation time (0.45s)
    };
 
    if (!course) return null; // Don't render if no course data is passed
@@ -19,7 +19,7 @@ export default function CourseDetailsModal({ course, closeModal, openEnrollModal
       <>
          {/* Backdrop */}
          <div
-            className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center z-50"
+            className="fixed inset-0 bg-gray-900 bg-opacity-50 flex justify-center items-center z-50"
             onClick={handleClose} // Close modal on clicking backdrop
          ></div>
 
@@ -30,7 +30,7 @@ export default function CourseDetailsModal({ course, closeModal, openEnrollModal
             }`}
          >
             <div
-               className="bg-white rounded-lg shadow-lg w-11/12 max-w-2xl p-6 overflow-y-auto max-h-[90vh]"
+               className="bg-white rounded-lg shadow-lg w-11/12 max-w-2xl p-6 overflow-y-auto max-h-[85vh]"
                onClick={(e) => e.stopPropagation()} // Prevent backdrop close on modal click
             >
                {/* Modal Header */}
