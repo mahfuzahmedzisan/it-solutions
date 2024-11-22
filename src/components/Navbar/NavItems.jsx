@@ -49,7 +49,7 @@ export default function NavItems() {
     <>
       {/* First Navbar */}
       <div
-        className={`fixed top-0 left-0 w-full bg-white z-30 transition-all duration-300 ${!isScrolled ? 'h-16' : 'h-0'}`}
+        className={`fixed top-0 left-0 w-full bg-white/10 z-30 transition-all duration-300 ${!isScrolled ? 'h-16' : 'h-0'}`}
         style={{
           overflow: 'hidden',
         }}

@@ -57,7 +57,7 @@ export default function Slider() {
 
    return (
       <div
-         className="relative w-full h-[500px] overflow-hidden"
+         className="relative w-full h-screen overflow-hidden"
          onMouseEnter={() => setIsHovered(true)}
          onMouseLeave={() => setIsHovered(false)}
          role="region" aria-label="Image Slider"
