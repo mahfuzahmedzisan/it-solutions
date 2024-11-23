@@ -42,6 +42,12 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  daisyui: {
+    themes: ['light', 'dark', 'cupcake', 'emerald', 'dark', 'winter'],
+    darkTheme: 'light',
+  }
 }
 
